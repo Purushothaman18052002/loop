@@ -1,0 +1,13 @@
+import math
+n=int(input("enter the limit"))
+a=1
+while a<=n:
+    k=int(math.sqrt(a))
+    b=2
+while b<=k:
+    if a%b==0:break
+    b+=1
+else:
+    print (a)
+    a+=1
+    
