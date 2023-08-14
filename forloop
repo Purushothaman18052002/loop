@@ -1,1 +1,6 @@
-
+n=[10,30,40,29,49,59]
+for i in n:
+    if i%2==0:
+        print(i,"is an even number")
+    else:
+        print(i,"is an odd numer")
